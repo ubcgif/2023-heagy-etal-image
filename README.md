@@ -1,2 +1,1 @@
-# template-repository-conference
-template repository for conference proceedings
+# Accelerating research with community-driven open-source software for geophysical inversions
