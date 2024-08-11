@@ -51,8 +51,8 @@ project:
 site:
   template: article-theme
   actions:
-    - title: slides
-      url: abstract/presentation/Heagy_IMAGE_2023.pdf
+    - title: Slides
+      url: presentation/Heagy_IMAGE_2023.pdf
       static: true
     # - title: slides
     #   url: presentation/SLIDES-NAME.pdf
