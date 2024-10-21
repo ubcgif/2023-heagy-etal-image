@@ -1,35 +1,42 @@
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-CONFERENCE
-  # title: TITLE
-  # description: DESCRIPTION
+  id: ubcgif-2023-heagy-etal-image
+  title: Accelerating research with community-driven open-source software for geophysical inversions
+  description: Talk presented at 2023 Third International Meeting for Applied Geoscience & Energy Expanded Abstracts 
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-    # - name: Douglas W. Oldenburg
-    #   affiliation: ubc
-    #   email: doug@eos.ubc.ca
-    #   orcid: 0000-0002-4327-2124
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0002-1551-5926
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Seogi Kang
+      email: skang@eoas.ubc.ca
+      orcid: 0000-0002-9963-936X
+      affiliation: ubc
+   - name: Joseph Capriotti
+      email:  jcapriot@eoas.ubc.ca
+      orcid: 0000-0003-4762-5377
+      affiliation: ubc
+     - name: Rowan Cockett
+    #   email:
+    #   orcid: 
+      affiliation: ubc
+    - name: Douglas W. Oldenburg
+      affiliation: ubc
+      email: doug@eos.ubc.ca
+      orcid: 0000-0002-4327-2124
   # banner: banner.png
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
-    # title: CONFERENCE NAME
-    # url: CONFERENCE URL
+    title: IMAGE
+    url: https://library.seg.org/doi/book/10.1190/segeab.42
   # license: CC-BY-4.0
   # open_access: true
   # doi: DOI
-  # date: DATE OF PRESENTATION
+  date: 2023/12/14
   abbreviations:
     # DC: direct current
     # EM: electromagnetics
@@ -44,9 +51,9 @@ project:
 site:
   template: article-theme
   actions:
-    # - title: pdf
-    #   url: ARTICLE-NAME.pdf
-    #   static: true
+    - title: Slides
+      url: presentation/Heagy_IMAGE_2023.pdf
+      static: true
     # - title: slides
     #   url: presentation/SLIDES-NAME.pdf
     #   static: true
